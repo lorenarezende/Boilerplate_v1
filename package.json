@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "postinstall": "husky install",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
   },
