@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports =  {
   '*.{js, jsx, ts, tsx}': (filenames) => [
     `prettier --write ${filenames.join(' ')}`,
