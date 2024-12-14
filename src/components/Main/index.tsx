@@ -1,8 +1,8 @@
 import React from 'react'
 const Main = () => (
-    <div>
+    <main>
         <h1>React Avançado</h1>
-    </div>
+    </main>
 )
 
 export default Main
